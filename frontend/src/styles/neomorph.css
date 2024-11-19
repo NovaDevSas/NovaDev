@@ -1,0 +1,15 @@
+.neomorph-button {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 4px 4px 8px #bebebe, -4px -4px 8px #ffffff;
+    padding: 10px 20px;
+    background-color: #e0e5ec;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.neomorph-button:active {
+    box-shadow: inset 4px 4px 8px #bebebe, inset -4px -4px 8px #ffffff;
+    background-color: #d0d4da;
+}

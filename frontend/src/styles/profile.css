@@ -1,0 +1,68 @@
+/* Archivo: profile.css */
+
+.profile-container {
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 15px;
+    box-shadow: 8px 8px 16px #b8b9be, -8px -8px 16px #ffffff;
+    background-color: #e0e0e0;
+}
+
+.profile-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-header h2 {
+    font-size: 2rem;
+    color: #37474F;
+    margin-bottom: 10px;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.profile-info-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: inset 4px 4px 8px #b8b9be, inset -4px -4px 8px #ffffff;
+}
+
+.profile-info-item label {
+    font-size: 1.1rem;
+    color: #607D8B;
+}
+
+.profile-info-item p {
+    font-size: 1.1rem;
+    color: #37474F;
+}
+
+.edit-profile-button {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #e0e0e0;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 4px 4px 8px #b8b9be, -4px -4px 8px #ffffff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 100%;
+    text-align: center;
+}
+
+.edit-profile-button:hover {
+    transform: scale(1.05);
+}
+
+.edit-profile-button:active {
+    box-shadow: inset 4px 4px 8px #b8b9be, inset -4px -4px 8px #ffffff;
+}
